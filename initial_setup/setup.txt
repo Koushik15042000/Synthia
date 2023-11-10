@@ -1,0 +1,748 @@
+PS C:\Users\koush\Synthia_Anaconda> pip install poetry 
+Collecting poetry
+  Obtaining dependency information for poetry from https://files.pythonhosted.org/packages/5f/7c/fb9e4addaabec3ce54370ebaf6d6ed2a77cb4b69f79b966ead6c8e148b77/poetry-1.7.0-py3-none-any.whl.metadata
+  Downloading poetry-1.7.0-py3-none-any.whl.metadata (6.8 kB)
+Collecting build<2.0.0,>=1.0.3 (from poetry)
+  Obtaining dependency information for build<2.0.0,>=1.0.3 from https://files.pythonhosted.org/packages/93/dd/b464b728b866aaa62785a609e0dd8c72201d62c5f7c53e7c20f4dceb085f/build-1.0.3-py3-none-any.whl.metadata
+  Downloading build-1.0.3-py3-none-any.whl.metadata (4.2 kB)
+Collecting cachecontrol[filecache]<0.14.0,>=0.13.0 (from poetry)
+  Obtaining dependency information for cachecontrol[filecache]<0.14.0,>=0.13.0 from https://files.pythonhosted.org/packages/1d/e3/a22348e6226dcd585d5a4b5f0175b3a16dabfd3912cbeb02f321d00e56c7/cachecontrol-0.13.1-py3-none-any.whl.metadata
+  Downloading cachecontrol-0.13.1-py3-none-any.whl.metadata (3.0 kB)
+Collecting cleo<3.0.0,>=2.1.0 (from poetry)
+  Obtaining dependency information for cleo<3.0.0,>=2.1.0 from https://files.pythonhosted.org/packages/2d/f5/6bbead8b880620e5a99e0e4bb9e22e67cca16ff48d54105302a3e7821096/cleo-2.1.0-py3-none-any.whl.metadata
+  Downloading cleo-2.1.0-py3-none-any.whl.metadata (12 kB)
+Collecting crashtest<0.5.0,>=0.4.1 (from poetry)
+  Downloading crashtest-0.4.1-py3-none-any.whl (7.6 kB)
+Collecting dulwich<0.22.0,>=0.21.2 (from poetry)
+  Obtaining dependency information for dulwich<0.22.0,>=0.21.2 from https://files.pythonhosted.org/packages/59/f6/1c2491bc270d7b66157c1f13203d2325ba0a210cfd62f600fab2ed16f6f3/dulwich-0.21.6-cp311-cp311-win_amd64.whl.metadata
+  Downloading dulwich-0.21.6-cp311-cp311-win_amd64.whl.metadata (4.4 kB)
+Collecting fastjsonschema<3.0.0,>=2.18.0 (from poetry)
+  Obtaining dependency information for fastjsonschema<3.0.0,>=2.18.0 from https://files.pythonhosted.org/packages/7f/1a/8aad366cf1779351741e5c791ae76dc8b293f72e9448c689cc2e730f06cb/fastjsonschema-2.18.1-py3-none-any.whl.metadata
+  Downloading fastjsonschema-2.18.1-py3-none-any.whl.metadata (2.0 kB)
+Collecting installer<0.8.0,>=0.7.0 (from poetry)
+  Downloading installer-0.7.0-py3-none-any.whl (453 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 453.8/453.8 kB 4.7 MB/s eta 0:00:00
+Collecting keyring<25.0.0,>=24.0.0 (from poetry)
+  Obtaining dependency information for keyring<25.0.0,>=24.0.0 from https://files.pythonhosted.org/packages/0e/8f/5772801169cf62e8232721034f91f81e33b0cfa6e51d3bf6ff65c503af2a/keyring-24.2.0-py3-none-any.whl.metadata
+  Downloading keyring-24.2.0-py3-none-any.whl.metadata (20 kB)
+Requirement already satisfied: packaging>=20.5 in c:\users\koush\anaconda3\lib\site-packages (from poetry) (23.1)
+Requirement already satisfied: pexpect<5.0.0,>=4.7.0 in c:\users\koush\anaconda3\lib\site-packages (from poetry) (4.8.0)
+Requirement already satisfied: pkginfo<2.0.0,>=1.9.4 in c:\users\koush\anaconda3\lib\site-packages (from poetry) (1.9.6)
+Requirement already satisfied: platformdirs<4.0.0,>=3.0.0 in c:\users\koush\anaconda3\lib\site-packages (from poetry) (3.10.0)
+Collecting poetry-core==1.8.1 (from poetry)
+  Obtaining dependency information for poetry-core==1.8.1 from https://files.pythonhosted.org/packages/99/bc/058b8ff87871fce6615ad032d62c773272f243266b110f7b86d146cf78d8/poetry_core-1.8.1-py3-none-any.whl.metadata
+  Downloading poetry_core-1.8.1-py3-none-any.whl.metadata (3.5 kB)
+Collecting poetry-plugin-export<2.0.0,>=1.6.0 (from poetry)
+  Obtaining dependency information for poetry-plugin-export<2.0.0,>=1.6.0 from https://files.pythonhosted.org/packages/17/bb/78d7d920bb463e4bee64f44d8b0d4a286a80af7e76ff8326e5169103f44b/poetry_plugin_export-1.6.0-py3-none-any.whl.metadata
+  Downloading poetry_plugin_export-1.6.0-py3-none-any.whl.metadata (2.8 kB)
+Collecting pyproject-hooks<2.0.0,>=1.0.0 (from poetry)
+  Downloading pyproject_hooks-1.0.0-py3-none-any.whl (9.3 kB)
+Requirement already satisfied: requests<3.0,>=2.26 in c:\users\koush\anaconda3\lib\site-packages (from poetry) (2.31.0)
+Requirement already satisfied: requests-toolbelt<2,>=0.9.1 in c:\users\koush\anaconda3\lib\site-packages (from poetry) (1.0.0)
+Collecting shellingham<2.0,>=1.5 (from poetry)
+  Obtaining dependency information for shellingham<2.0,>=1.5 from https://files.pythonhosted.org/packages/e0/f9/0595336914c5619e5f28a1fb793285925a8cd4b432c9da0a987836c7f822/shellingham-1.5.4-py2.py3-none-any.whl.metadata
+  Downloading shellingham-1.5.4-py2.py3-none-any.whl.metadata (3.5 kB)
+Collecting tomlkit<1.0.0,>=0.11.4 (from poetry)
+  Obtaining dependency information for tomlkit<1.0.0,>=0.11.4 from https://files.pythonhosted.org/packages/15/27/c53c6505ae6c94b7e11521e19855d7838396b9da09a519cf5f107df359a4/tomlkit-0.12.2-py3-none-any.whl.metadata
+  Downloading tomlkit-0.12.2-py3-none-any.whl.metadata (2.7 kB)
+Collecting trove-classifiers>=2022.5.19 (from poetry)
+  Obtaining dependency information for trove-classifiers>=2022.5.19 from https://files.pythonhosted.org/packages/69/39/ec2275fd5550d5a0d09fa07d319a9d62641af7677f791268075c74c767f2/trove_classifiers-2023.11.9-py3-none-any.whl.metadata
+  Downloading trove_classifiers-2023.11.9-py3-none-any.whl.metadata (2.2 kB)
+Collecting virtualenv<21.0.0,>=20.23.0 (from poetry)
+  Obtaining dependency information for virtualenv<21.0.0,>=20.23.0 from https://files.pythonhosted.org/packages/7f/19/1f0eddcb9acf00a95793ce83417f69e0fd106c192121360af499cd6fde39/virtualenv-20.24.6-py3-none-any.whl.metadata
+  Downloading virtualenv-20.24.6-py3-none-any.whl.metadata (4.5 kB)
+Requirement already satisfied: colorama in c:\users\koush\anaconda3\lib\site-packages (from build<2.0.0,>=1.0.3->poetry) (0.4.6)
+Requirement already satisfied: msgpack>=0.5.2 in c:\users\koush\anaconda3\lib\site-packages (from cachecontrol[filecache]<0.14.0,>=0.13.0->poetry) (1.0.3)
+Requirement already satisfied: filelock>=3.8.0 in c:\users\koush\anaconda3\lib\site-packages (from cachecontrol[filecache]<0.14.0,>=0.13.0->poetry) (3.9.0)
+Collecting rapidfuzz<4.0.0,>=3.0.0 (from cleo<3.0.0,>=2.1.0->poetry)
+  Obtaining dependency information for rapidfuzz<4.0.0,>=3.0.0 from https://files.pythonhosted.org/packages/89/49/e95e84ed1e5c3c69ea8849d06f8f475c41303533c86710b1c01a4f50d353/rapidfuzz-3.5.2-cp311-cp311-win_amd64.whl.metadata
+  Downloading rapidfuzz-3.5.2-cp311-cp311-win_amd64.whl.metadata (11 kB)
+Requirement already satisfied: urllib3>=1.25 in c:\users\koush\anaconda3\lib\site-packages (from dulwich<0.22.0,>=0.21.2->poetry) (1.26.16)
+Requirement already satisfied: jaraco.classes in c:\users\koush\anaconda3\lib\site-packages (from keyring<25.0.0,>=24.0.0->poetry) (3.2.1)
+Requirement already satisfied: importlib-metadata>=4.11.4 in c:\users\koush\anaconda3\lib\site-packages (from keyring<25.0.0,>=24.0.0->poetry) (6.0.0)
+Requirement already satisfied: pywin32-ctypes>=0.2.0 in c:\users\koush\anaconda3\lib\site-packages (from keyring<25.0.0,>=24.0.0->poetry) (0.2.0)
+Requirement already satisfied: ptyprocess>=0.5 in c:\users\koush\anaconda3\lib\site-packages (from pexpect<5.0.0,>=4.7.0->poetry) (0.7.0)
+Requirement already satisfied: charset-normalizer<4,>=2 in c:\users\koush\anaconda3\lib\site-packages (from requests<3.0,>=2.26->poetry) (2.0.4)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\koush\anaconda3\lib\site-packages (from requests<3.0,>=2.26->poetry) (3.4)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\koush\anaconda3\lib\site-packages (from requests<3.0,>=2.26->poetry) (2023.7.22)
+Collecting distlib<1,>=0.3.7 (from virtualenv<21.0.0,>=20.23.0->poetry)
+  Obtaining dependency information for distlib<1,>=0.3.7 from https://files.pythonhosted.org/packages/43/a0/9ba967fdbd55293bacfc1507f58e316f740a3b231fc00e3d86dc39bc185a/distlib-0.3.7-py2.py3-none-any.whl.metadata
+  Downloading distlib-0.3.7-py2.py3-none-any.whl.metadata (5.1 kB)
+Collecting filelock>=3.8.0 (from cachecontrol[filecache]<0.14.0,>=0.13.0->poetry)
+  Obtaining dependency information for filelock>=3.8.0 from https://files.pythonhosted.org/packages/81/54/84d42a0bee35edba99dee7b59a8d4970eccdd44b99fe728ed912106fc781/filelock-3.13.1-py3-none-any.whl.metadata
+  Downloading filelock-3.13.1-py3-none-any.whl.metadata (2.8 kB)
+Requirement already satisfied: zipp>=0.5 in c:\users\koush\anaconda3\lib\site-packages (from importlib-metadata>=4.11.4->keyring<25.0.0,>=24.0.0->poetry) (3.11.0)
+Requirement already satisfied: more-itertools in c:\users\koush\anaconda3\lib\site-packages (from jaraco.classes->keyring<25.0.0,>=24.0.0->poetry) (8.12.0)
+Downloading poetry-1.7.0-py3-none-any.whl (235 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 235.8/235.8 kB 7.3 MB/s eta 0:00:00
+Downloading poetry_core-1.8.1-py3-none-any.whl (306 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 306.6/306.6 kB 19.8 MB/s eta 0:00:00
+Downloading build-1.0.3-py3-none-any.whl (18 kB)
+Downloading cleo-2.1.0-py3-none-any.whl (78 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 78.7/78.7 kB ? eta 0:00:00
+Downloading dulwich-0.21.6-cp311-cp311-win_amd64.whl (484 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 484.9/484.9 kB 29.7 MB/s eta 0:00:00
+Downloading fastjsonschema-2.18.1-py3-none-any.whl (23 kB)
+Downloading keyring-24.2.0-py3-none-any.whl (37 kB)
+Downloading poetry_plugin_export-1.6.0-py3-none-any.whl (10 kB)
+Downloading shellingham-1.5.4-py2.py3-none-any.whl (9.8 kB)
+Downloading tomlkit-0.12.2-py3-none-any.whl (37 kB)
+Downloading trove_classifiers-2023.11.9-py3-none-any.whl (13 kB)
+Downloading virtualenv-20.24.6-py3-none-any.whl (3.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.8/3.8 MB 17.2 MB/s eta 0:00:00
+Downloading distlib-0.3.7-py2.py3-none-any.whl (468 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 468.9/468.9 kB 30.6 MB/s eta 0:00:00
+Downloading filelock-3.13.1-py3-none-any.whl (11 kB)
+Downloading rapidfuzz-3.5.2-cp311-cp311-win_amd64.whl (1.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.7/1.7 MB 18.1 MB/s eta 0:00:00
+Downloading cachecontrol-0.13.1-py3-none-any.whl (22 kB)
+Installing collected packages: trove-classifiers, fastjsonschema, distlib, tomlkit, shellingham, rapidfuzz, pyproject-hooks, poetry-core, installer, filelock, dulwich, crashtest, virtualenv, keyring, cleo, cachecontrol, build, poetry-plugin-export, poetry
+  Attempting uninstall: fastjsonschema
+    Found existing installation: fastjsonschema 2.16.2
+    Uninstalling fastjsonschema-2.16.2:
+      Successfully uninstalled fastjsonschema-2.16.2
+  Attempting uninstall: tomlkit
+    Found existing installation: tomlkit 0.11.1
+    Uninstalling tomlkit-0.11.1:
+      Successfully uninstalled tomlkit-0.11.1
+  Attempting uninstall: filelock
+    Found existing installation: filelock 3.9.0
+    Uninstalling filelock-3.9.0:
+      Successfully uninstalled filelock-3.9.0
+  Attempting uninstall: keyring
+    Found existing installation: keyring 23.13.1
+    Uninstalling keyring-23.13.1:
+      Successfully uninstalled keyring-23.13.1
+Successfully installed build-1.0.3 cachecontrol-0.13.1 cleo-2.1.0 crashtest-0.4.1 distlib-0.3.7 dulwich-0.21.6 fastjsonschema-2.18.1 filelock-3.13.1 installer-0.7.0 keyring-24.2.0 poetry-1.7.0 poetry-core-1.8.1 poetry-plugin-export-1.6.0 pyproject-hooks-1.0.0 rapidfuzz-3.5.2 shellingham-1.5.4 tomlkit-0.12.2 trove-classifiers-2023.11.9 virtualenv-20.24.6
+PS C:\Users\koush\Synthia_Anaconda> poetry init
+INFO: Could not find files for the given pattern(s).
+
+This command will guide you through creating your pyproject.toml config.
+
+Package name [synthia_anaconda]:  synthia-anaconda
+Version [0.1.0]:  0.1.0
+Description []:  Generative AI Chatbot for the City of San Jose
+Author [None, n to skip]:  Koushik Modekurti <koushik.modekurti@sjsu.edu>
+License []:
+Compatible Python versions [^3.11]:  ^3.11
+
+Would you like to define your main dependencies interactively? (yes/no) [yes] yes
+You can specify a package in the following forms:
+  - A single name (requests): this will search for matches on PyPI
+  - A name and a constraint (requests@^2.23.0)
+  - A git url (git+https://github.com/python-poetry/poetry.git)
+  - A git url with a revision (git+https://github.com/python-poetry/poetry.git#develop)
+  - A file path (../my-package/my-package.whl)
+  - A directory (../my-package/)
+  - A url (https://example.com/packages/my-package-0.1.0.tar.gz)
+
+Package to add or search for (leave blank to skip): streamlit
+
+Poetry could not find a pyproject.toml file in C:\Users\koush\Synthia_Anaconda or its parents
+PS C:\Users\koush\Synthia_Anaconda> poetry init
+INFO: Could not find files for the given pattern(s).
+
+This command will guide you through creating your pyproject.toml config.
+
+Package name [synthia_anaconda]:  synthia_anaconda
+Version [0.1.0]:  0.1.0
+Description []:  Generative AI Chatbot for the City of San Jose
+Author [None, n to skip]:  Koushik Modekurti <koushik.modekurti@sjsu.edu> 
+License []:  
+Compatible Python versions [^3.11]:  ^3.11
+
+Would you like to define your main dependencies interactively? (yes/no) [yes] no
+Would you like to define your development dependencies interactively? (yes/no) [yes] no
+Generated file
+
+[tool.poetry]
+name = "synthia-anaconda"
+version = "0.1.0"
+description = "Generative AI Chatbot for the City of San Jose"
+authors = ["Koushik Modekurti <koushik.modekurti@sjsu.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+Do you confirm generation? (yes/no) [yes] yes
+PS C:\Users\koush\Synthia_Anaconda> poetry install
+Creating virtualenv synthia-anaconda-JgSo9Fyh-py3.11 in C:\Users\koush\AppData\Local\pypoetry\Cache\virtualenvs
+Updating dependencies
+Resolving dependencies... (21.8s)
+
+Package operations: 107 installs, 0 updates, 0 removals
+
+  • Installing attrs (23.1.0)
+  • Installing rpds-py (0.12.0)
+  • Installing referencing (0.30.2)
+  • Installing six (1.16.0)
+  • Installing jsonschema-specifications (2023.7.1)
+  • Installing markupsafe (2.1.3)
+  • Installing mdurl (0.1.2)
+  • Installing numpy (1.25.2)
+  • Installing packaging (23.2)
+  • Installing python-dateutil (2.8.2)
+  • Installing pytz (2023.3.post1)
+  • Installing smmap (5.0.1)
+  • Installing tzdata (2023.3)
+  • Installing asttokens (2.4.1): Pending...
+  • Installing certifi (2023.7.22): Pending...
+  • Installing certifi (2023.7.22): Pending...
+  • Installing asttokens (2.4.1): Downloading... 0%
+  • Installing certifi (2023.7.22): Pending...
+  • Installing certifi (2023.7.22): Downloading... 0%
+  • Installing certifi (2023.7.22): Downloading... 0%
+  • Installing asttokens (2.4.1): Downloading... 100%
+  • Installing certifi (2023.7.22): Downloading... 0%
+  • Installing certifi (2023.7.22): Downloading... 100%
+  • Installing certifi (2023.7.22): Downloading... 100%
+  • Installing asttokens (2.4.1): Installing...
+  • Installing certifi (2023.7.22): Downloading... 100%
+  • Installing certifi (2023.7.22): Installing...
+  • Installing certifi (2023.7.22): Installing...
+  • Installing asttokens (2.4.1)
+  • Installing certifi (2023.7.22): Installing...
+  • Installing charset-normalizer (3.3.2): Installing...
+  • Installing colorama (0.4.6): Installing...
+  • Installing charset-normalizer (3.3.2): Installing...
+  • Installing colorama (0.4.6): Installing...
+  • Installing certifi (2023.7.22)
+  • Installing charset-normalizer (3.3.2): Installing...
+  • Installing colorama (0.4.6): Installing...
+  • Installing colorama (0.4.6): Installing...
+  • Installing charset-normalizer (3.3.2)
+  • Installing colorama (0.4.6): Installing...
+  • Installing colorama (0.4.6)
+  • Installing executing (2.0.1)
+  • Installing frozenlist (1.4.0)
+  • Installing gitdb (4.0.11)
+  • Installing idna (3.4)
+  • Installing jinja2 (3.1.2)
+  • Installing jsonschema (4.19.2)
+  • Installing markdown-it-py (3.0.0)
+  • Installing marshmallow (3.20.1)
+  • Installing multidict (6.0.4)
+  • Installing mypy-extensions (1.0.0)
+  • Installing pandas (2.1.2)
+  • Installing parso (0.8.3)
+  • Installing platformdirs (3.11.0)
+  • Installing pure-eval (0.2.2)
+  • Installing pygments (2.16.1)
+  • Installing pywin32 (306)
+  • Installing toolz (0.12.0)
+  • Installing traitlets (5.13.0)
+  • Installing typing-extensions (4.8.0)
+  • Installing urllib3 (2.0.7)
+  • Installing wcwidth (0.2.9)
+  • Installing zipp (3.17.0)
+  • Installing aiosignal (1.3.1): Pending...
+  • Installing altair (5.1.2): Pending...
+  • Installing altair (5.1.2): Downloading... 0%
+  • Installing altair (5.1.2): Downloading... 0%
+  • Installing aiosignal (1.3.1): Downloading... 0%
+  • Installing altair (5.1.2): Downloading... 0%
+  • Installing altair (5.1.2): Downloading... 0%
+  • Installing aiosignal (1.3.1): Downloading... 100%
+  • Installing altair (5.1.2): Downloading... 0%
+  • Installing altair (5.1.2): Downloading... 50%
+  • Installing altair (5.1.2): Downloading... 50%
+  • Installing aiosignal (1.3.1): Installing...
+  • Installing altair (5.1.2): Downloading... 50%
+  • Installing async-timeout (4.0.3)
+  • Installing blinker (1.7.0): Installing...
+  • Installing cachetools (5.3.2)
+  • Installing altair (5.1.2): Downloading... 50%
+  • Installing async-timeout (4.0.3)
+  • Installing blinker (1.7.0): Installing...
+  • Installing cachetools (5.3.2)
+  • Installing aiosignal (1.3.1)
+  • Installing altair (5.1.2): Downloading... 50%
+  • Installing async-timeout (4.0.3)
+  • Installing blinker (1.7.0): Installing...
+  • Installing cachetools (5.3.2)
+  • Installing async-timeout (4.0.3)
+  • Installing blinker (1.7.0): Installing...
+  • Installing cachetools (5.3.2)
+  • Installing altair (5.1.2): Downloading... 80%
+  • Installing async-timeout (4.0.3)
+  • Installing blinker (1.7.0): Installing...
+  • Installing cachetools (5.3.2)
+  • Installing cachetools (5.3.2)
+  • Installing blinker (1.7.0)
+  • Installing cachetools (5.3.2)
+  • Installing click (8.1.7): Installing...
+  • Installing decorator (5.1.1)
+  • Installing gitpython (3.1.40): Installing...
+  • Installing async-timeout (4.0.3)
+  • Installing blinker (1.7.0)
+  • Installing cachetools (5.3.2)
+  • Installing click (8.1.7): Installing...
+  • Installing decorator (5.1.1)
+  • Installing gitpython (3.1.40): Installing...
+  • Installing altair (5.1.2): Downloading... 100%
+  • Installing async-timeout (4.0.3)
+  • Installing blinker (1.7.0)
+  • Installing cachetools (5.3.2)
+  • Installing click (8.1.7): Installing...
+  • Installing decorator (5.1.1)
+  • Installing gitpython (3.1.40): Installing...
+  • Installing greenlet (3.0.1): Downloading... 90%
+  • Installing greenlet (3.0.1): Downloading... 100%
+  • Installing greenlet (3.0.1): Installing...
+  • Installing async-timeout (4.0.3)
+  • Installing blinker (1.7.0)
+  • Installing cachetools (5.3.2)
+  • Installing click (8.1.7): Installing...
+  • Installing decorator (5.1.1)
+  • Installing gitpython (3.1.40): Installing...
+  • Installing greenlet (3.0.1): Installing...
+  • Installing altair (5.1.2): Installing...
+  • Installing async-timeout (4.0.3)
+  • Installing blinker (1.7.0)
+  • Installing cachetools (5.3.2)
+  • Installing click (8.1.7): Installing...
+  • Installing decorator (5.1.1)
+  • Installing gitpython (3.1.40): Installing...
+  • Installing greenlet (3.0.1): Installing...
+  • Installing importlib-metadata (6.8.0): Installing...
+  • Installing importlib-metadata (6.8.0)
+  • Installing jedi (0.19.1): Downloading... 40%
+  • Installing jedi (0.19.1): Downloading... 70%
+  • Installing decorator (5.1.1)
+  • Installing gitpython (3.1.40): Installing...
+  • Installing greenlet (3.0.1): Installing...
+  • Installing importlib-metadata (6.8.0)
+  • Installing jedi (0.19.1): Downloading... 70%
+  • Installing click (8.1.7)
+  • Installing decorator (5.1.1)
+  • Installing gitpython (3.1.40): Installing...
+  • Installing greenlet (3.0.1): Installing...
+  • Installing importlib-metadata (6.8.0)
+  • Installing jedi (0.19.1): Downloading... 70%
+  • Installing jupyter-core (5.5.0)
+  • Installing jupyter-core (5.5.0)
+  • Installing jedi (0.19.1): Downloading... 100%
+  • Installing jupyter-core (5.5.0)
+  • Installing jupyter-core (5.5.0)
+  • Installing jedi (0.19.1): Installing...
+  • Installing jupyter-core (5.5.0)
+  • Installing greenlet (3.0.1): Installing...
+  • Installing importlib-metadata (6.8.0)
+  • Installing jedi (0.19.1): Installing...
+  • Installing jupyter-core (5.5.0)
+  • Installing gitpython (3.1.40)
+  • Installing greenlet (3.0.1): Installing...
+  • Installing importlib-metadata (6.8.0)
+  • Installing jedi (0.19.1): Installing...
+  • Installing jupyter-core (5.5.0)
+  • Installing async-timeout (4.0.3)
+  • Installing blinker (1.7.0)
+  • Installing cachetools (5.3.2)
+  • Installing click (8.1.7)
+  • Installing decorator (5.1.1)
+  • Installing gitpython (3.1.40)
+  • Installing greenlet (3.0.1): Installing...
+  • Installing importlib-metadata (6.8.0)
+  • Installing jedi (0.19.1): Installing...
+  • Installing jupyter-core (5.5.0)
+  • Installing altair (5.1.2)
+  • Installing async-timeout (4.0.3)
+  • Installing blinker (1.7.0)
+  • Installing cachetools (5.3.2)
+  • Installing click (8.1.7)
+  • Installing decorator (5.1.1)
+  • Installing gitpython (3.1.40)
+  • Installing greenlet (3.0.1): Installing...
+  • Installing importlib-metadata (6.8.0)
+  • Installing jedi (0.19.1): Installing...
+  • Installing jupyter-core (5.5.0)
+  • Installing importlib-metadata (6.8.0)
+  • Installing jedi (0.19.1): Installing...
+  • Installing jupyter-core (5.5.0)
+  • Installing greenlet (3.0.1)
+  • Installing importlib-metadata (6.8.0)
+  • Installing jedi (0.19.1): Installing...
+  • Installing jupyter-core (5.5.0)
+  • Installing jupyter-core (5.5.0)
+  • Installing jedi (0.19.1)
+  • Installing jupyter-core (5.5.0)
+  • Installing marshmallow-enum (1.5.1)
+  • Installing matplotlib-inline (0.1.6)
+  • Installing pbr (6.0.0)
+  • Installing pillow (10.1.0)
+  • Installing prompt-toolkit (3.0.39)
+  • Installing protobuf (4.25.0)
+  • Installing pyarrow (14.0.1)
+  • Installing pydantic (1.10.13)
+  • Installing pydeck (0.8.0)
+  • Installing pyzmq (25.1.1)
+  • Installing requests (2.31.0)
+  • Installing rich (13.6.0)
+  • Installing stack-data (0.6.3)
+  • Installing tenacity (8.2.3)
+  • Installing toml (0.10.2)
+  • Installing tornado (6.3.3)
+  • Installing typing-inspect (0.9.0)
+  • Installing tzlocal (5.2)
+  • Installing validators (0.22.0)
+  • Installing watchdog (3.0.0)
+  • Installing win32-setctime (1.1.0)
+  • Installing yarl (1.9.2)
+  • Installing aiohttp (3.8.6)
+  • Installing comm (0.2.0)
+  • Installing dataclasses-json (0.5.9)
+  • Installing debugpy (1.8.0)
+  • Installing dnspython (2.4.2)
+  • Installing et-xmlfile (1.1.0)
+  • Installing iniconfig (2.0.0)
+  • Installing ipython (8.17.2)
+  • Installing jupyter-client (8.6.0)
+  • Installing langchainplus-sdk (0.0.20)
+  • Installing loguru (0.7.2)
+  • Installing nest-asyncio (1.5.8)
+  • Installing numexpr (2.8.7)
+  • Installing openapi-schema-pydantic (1.2.4)
+  • Installing pluggy (1.3.0)
+  • Installing psutil (5.9.6)
+  • Installing pyyaml (6.0.1)
+  • Installing regex (2023.10.3)
+  • Installing sqlalchemy (2.0.23)
+  • Installing stevedore (5.1.0)
+  • Installing streamlit (1.28.1)
+  • Installing tqdm (4.66.1)
+  • Installing bandit (1.7.5)
+  • Installing faiss-cpu (1.7.4)
+  • Installing ipykernel (6.26.0)
+  • Installing langchain (0.0.194)
+  • Installing openai (0.27.10)
+  • Installing openpyxl (3.1.2)
+  • Installing pinecone-client (2.2.4)
+  • Installing pypdf (3.17.0)
+  • Installing pytest (7.4.3)
+  • Installing python-dotenv (1.0.0)
+  • Installing streamlit-chat (0.0.2.2)
+  • Installing tiktoken (0.4.0)
+
+Writing lock file
+
+Installing the current project: synthia-anaconda (0.1.0)
+The current project could not be installed: [Errno 2] No such file or directory: 'C:\\Users\\koush\\Synthia_Anaconda\\README.md'
+If you do not want to install the current project use --no-root
+PS C:\Users\koush\Synthia_Anaconda> poetry env info
+
+Virtualenv
+Python:         3.11.5
+Implementation: CPython
+Path:           C:\Users\koush\AppData\Local\pypoetry\Cache\virtualenvs\synthia-anaconda-JgSo9Fyh-py3.11
+Executable:     C:\Users\koush\AppData\Local\pypoetry\Cache\virtualenvs\synthia-anaconda-JgSo9Fyh-py3.11\Scripts\python.exe
+Valid:          True
+
+System
+Platform:   win32
+OS:         nt
+Python:     3.11.5
+Path:       C:\Users\koush\anaconda3
+Executable: C:\Users\koush\anaconda3\python.exe
+PS C:\Users\koush\Synthia_Anaconda> poetry config virtualenvs.in-project true
+PS C:\Users\koush\Synthia_Anaconda> poetry install
+Creating virtualenv synthia-anaconda in C:\Users\koush\Synthia_Anaconda\.venv
+Installing dependencies from lock file
+
+Package operations: 107 installs, 0 updates, 0 removals
+
+  • Installing attrs (23.1.0)
+  • Installing rpds-py (0.12.0)
+  • Installing referencing (0.30.2)
+  • Installing six (1.16.0)
+  • Installing jsonschema-specifications (2023.7.1)
+  • Installing markupsafe (2.1.3)
+  • Installing mdurl (0.1.2)
+  • Installing numpy (1.25.2)
+  • Installing packaging (23.2)
+  • Installing python-dateutil (2.8.2)
+  • Installing pytz (2023.3.post1)
+  • Installing smmap (5.0.1)
+  • Installing tzdata (2023.3)
+  • Installing asttokens (2.4.1): Pending...
+  • Installing certifi (2023.7.22): Pending...
+  • Installing certifi (2023.7.22): Pending...
+  • Installing asttokens (2.4.1): Installing...
+  • Installing certifi (2023.7.22): Pending...
+  • Installing certifi (2023.7.22): Installing...
+  • Installing charset-normalizer (3.3.2): Installing...
+  • Installing certifi (2023.7.22): Installing...
+  • Installing charset-normalizer (3.3.2): Installing...
+  • Installing asttokens (2.4.1)
+  • Installing certifi (2023.7.22): Installing...
+  • Installing charset-normalizer (3.3.2): Installing...
+  • Installing colorama (0.4.6): Installing...
+  • Installing charset-normalizer (3.3.2): Installing...
+  • Installing colorama (0.4.6): Installing...
+  • Installing certifi (2023.7.22)
+  • Installing charset-normalizer (3.3.2): Installing...
+  • Installing colorama (0.4.6): Installing...
+  • Installing colorama (0.4.6)
+  • Installing colorama (0.4.6)
+  • Installing charset-normalizer (3.3.2)
+  • Installing colorama (0.4.6)
+  • Installing executing (2.0.1)
+  • Installing frozenlist (1.4.0)
+  • Installing gitdb (4.0.11)
+  • Installing idna (3.4)
+  • Installing jinja2 (3.1.2)
+  • Installing jsonschema (4.19.2)
+  • Installing markdown-it-py (3.0.0)
+  • Installing marshmallow (3.20.1)
+  • Installing multidict (6.0.4)
+  • Installing mypy-extensions (1.0.0)
+  • Installing pandas (2.1.2)
+  • Installing parso (0.8.3)
+  • Installing platformdirs (3.11.0)
+  • Installing pure-eval (0.2.2)
+  • Installing pygments (2.16.1)
+  • Installing pywin32 (306)
+  • Installing toolz (0.12.0)
+  • Installing traitlets (5.13.0)
+  • Installing typing-extensions (4.8.0)
+  • Installing urllib3 (2.0.7)
+  • Installing wcwidth (0.2.9)
+  • Installing zipp (3.17.0)
+  • Installing aiosignal (1.3.1): Pending...
+  • Installing altair (5.1.2): Pending...
+  • Installing altair (5.1.2): Pending...
+  • Installing aiosignal (1.3.1): Installing...
+  • Installing altair (5.1.2): Pending...
+  • Installing altair (5.1.2): Installing...
+  • Installing altair (5.1.2): Installing...
+  • Installing aiosignal (1.3.1)
+  • Installing altair (5.1.2): Installing...
+  • Installing async-timeout (4.0.3)
+  • Installing blinker (1.7.0): Installing...
+  • Installing cachetools (5.3.2): Installing...
+  • Installing cachetools (5.3.2)
+  • Installing click (8.1.7): Installing...
+  • Installing decorator (5.1.1)
+  • Installing cachetools (5.3.2)
+  • Installing click (8.1.7): Installing...
+  • Installing decorator (5.1.1)
+  • Installing blinker (1.7.0)
+  • Installing cachetools (5.3.2)
+  • Installing click (8.1.7): Installing...
+  • Installing decorator (5.1.1)
+  • Installing gitpython (3.1.40): Installing...
+  • Installing greenlet (3.0.1): Installing...
+  • Installing importlib-metadata (6.8.0)
+  • Installing decorator (5.1.1)
+  • Installing gitpython (3.1.40): Installing...
+  • Installing greenlet (3.0.1): Installing...
+  • Installing importlib-metadata (6.8.0)
+  • Installing click (8.1.7)
+  • Installing decorator (5.1.1)
+  • Installing gitpython (3.1.40): Installing...
+  • Installing greenlet (3.0.1): Installing...
+  • Installing importlib-metadata (6.8.0)
+  • Installing jedi (0.19.1): Installing...
+  • Installing jupyter-core (5.5.0): Installing...
+  • Installing jupyter-core (5.5.0)
+  • Installing greenlet (3.0.1): Installing...
+  • Installing importlib-metadata (6.8.0)
+  • Installing jedi (0.19.1): Installing...
+  • Installing jupyter-core (5.5.0)
+  • Installing gitpython (3.1.40)
+  • Installing greenlet (3.0.1): Installing...
+  • Installing importlib-metadata (6.8.0)
+  • Installing jedi (0.19.1): Installing...
+  • Installing jupyter-core (5.5.0)
+  • Installing async-timeout (4.0.3)
+  • Installing blinker (1.7.0)
+  • Installing cachetools (5.3.2)
+  • Installing click (8.1.7)
+  • Installing decorator (5.1.1)
+  • Installing gitpython (3.1.40)
+  • Installing greenlet (3.0.1): Installing...
+  • Installing importlib-metadata (6.8.0)
+  • Installing jedi (0.19.1): Installing...
+  • Installing jupyter-core (5.5.0)
+  • Installing altair (5.1.2)
+  • Installing async-timeout (4.0.3)
+  • Installing blinker (1.7.0)
+  • Installing cachetools (5.3.2)
+  • Installing click (8.1.7)
+  • Installing decorator (5.1.1)
+  • Installing gitpython (3.1.40)
+  • Installing greenlet (3.0.1): Installing...
+  • Installing importlib-metadata (6.8.0)
+  • Installing jedi (0.19.1): Installing...
+  • Installing jupyter-core (5.5.0)
+  • Installing importlib-metadata (6.8.0)
+  • Installing jedi (0.19.1): Installing...
+  • Installing jupyter-core (5.5.0)
+  • Installing greenlet (3.0.1)
+  • Installing importlib-metadata (6.8.0)
+  • Installing jedi (0.19.1): Installing...
+  • Installing jupyter-core (5.5.0)
+  • Installing jupyter-core (5.5.0)
+  • Installing jedi (0.19.1)
+  • Installing jupyter-core (5.5.0)
+  • Installing marshmallow-enum (1.5.1)
+  • Installing matplotlib-inline (0.1.6)
+  • Installing pbr (6.0.0)
+  • Installing pillow (10.1.0)
+  • Installing prompt-toolkit (3.0.39)
+  • Installing protobuf (4.25.0)
+  • Installing pyarrow (14.0.1)
+  • Installing pydantic (1.10.13)
+  • Installing pydeck (0.8.0)
+  • Installing pyzmq (25.1.1)
+  • Installing requests (2.31.0)
+  • Installing rich (13.6.0)
+  • Installing tenacity (8.2.3)
+  • Installing stack-data (0.6.3)
+  • Installing toml (0.10.2)
+  • Installing tornado (6.3.3)
+  • Installing typing-inspect (0.9.0)
+  • Installing tzlocal (5.2)
+  • Installing validators (0.22.0)
+  • Installing watchdog (3.0.0)
+  • Installing win32-setctime (1.1.0)
+  • Installing yarl (1.9.2)
+  • Installing aiohttp (3.8.6)
+  • Installing comm (0.2.0)
+  • Installing dataclasses-json (0.5.9)
+  • Installing debugpy (1.8.0)
+  • Installing dnspython (2.4.2)
+  • Installing et-xmlfile (1.1.0)
+  • Installing iniconfig (2.0.0)
+  • Installing ipython (8.17.2)
+  • Installing jupyter-client (8.6.0)
+  • Installing langchainplus-sdk (0.0.20)
+  • Installing loguru (0.7.2)
+  • Installing nest-asyncio (1.5.8)
+  • Installing numexpr (2.8.7)
+  • Installing openapi-schema-pydantic (1.2.4)
+  • Installing pluggy (1.3.0)
+  • Installing psutil (5.9.6)
+  • Installing pyyaml (6.0.1)
+  • Installing regex (2023.10.3)
+  • Installing sqlalchemy (2.0.23)
+  • Installing stevedore (5.1.0)
+  • Installing streamlit (1.28.1)
+  • Installing tqdm (4.66.1)
+  • Installing bandit (1.7.5)
+  • Installing faiss-cpu (1.7.4)
+  • Installing ipykernel (6.26.0)
+  • Installing langchain (0.0.194)
+  • Installing openai (0.27.10)
+  • Installing openpyxl (3.1.2)
+  • Installing pinecone-client (2.2.4)
+  • Installing pypdf (3.17.0)
+  • Installing pytest (7.4.3)
+  • Installing python-dotenv (1.0.0)
+  • Installing streamlit-chat (0.0.2.2)
+  • Installing tiktoken (0.4.0)
+
+Installing the current project: synthia-anaconda (0.1.0)
+The current project could not be installed: [Errno 2] No such file or directory: 'C:\\Users\\koush\\Synthia_Anaconda\\README.md'
+If you do not want to install the current project use --no-root
+PS C:\Users\koush\Synthia_Anaconda> poetry shell
+Spawning shell within C:\Users\koush\Synthia_Anaconda\.venv
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+File C:\Users\koush\Synthia_Anaconda\.venv\Scripts\activate.ps1 cannot be loaded because running scripts is disabled on this system. For more information, see about_Execution_Policies at 
+https:/go.microsoft.com/fwlink/?LinkID=135170.
+    + CategoryInfo          : SecurityError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : UnauthorizedAccess
+PS C:\Users\koush\Synthia_Anaconda> poetry shell
+Virtual environment already activated: C:\Users\koush\Synthia_Anaconda\.venv
+PS C:\Users\koush\Synthia_Anaconda> poetry add requests
+Using version ^2.31.0 for requests
+
+Updating dependencies
+Resolving dependencies... (1.4s)
+
+No dependencies to install or update
+
+Writing lock file
+PS C:\Users\koush\Synthia_Anaconda> poetry add jupyter
+Using version ^1.0.0 for jupyter
+
+Updating dependencies
+Resolving dependencies... (8.3s)
+
+Package operations: 53 installs, 0 updates, 0 removals
+
+  • Installing types-python-dateutil (2.8.19.14)
+  • Installing arrow (1.3.0)
+  • Installing fastjsonschema (2.18.1)
+  • Installing pycparser (2.21)
+  • Installing cffi (1.16.0)
+  • Installing fqdn (1.5.1)
+  • Installing isoduration (20.11.0)
+  • Installing jsonpointer (2.4)
+  • Installing nbformat (5.9.2)
+  • Installing pywinpty (2.0.12)
+  • Installing rfc3339-validator (0.1.4)
+  • Installing rfc3986-validator (0.1.1)
+  • Installing soupsieve (2.5)
+  • Installing uri-template (1.3.0)
+  • Installing webcolors (1.13)
+  • Installing webencodings (0.5.1)
+  • Installing argon2-cffi-bindings (21.2.0)
+  • Installing beautifulsoup4 (4.12.2)
+  • Installing bleach (6.1.0)
+  • Installing defusedxml (0.7.1)
+  • Installing jupyterlab-pygments (0.2.2)
+  • Installing mistune (3.0.2)
+  • Installing nbclient (0.9.0)
+  • Installing pandocfilters (1.5.0)
+  • Installing python-json-logger (2.0.7)
+  • Installing sniffio (1.3.0)
+  • Installing terminado (0.18.0)
+  • Installing tinycss2 (1.2.1)
+  • Installing anyio (4.0.0)
+  • Installing argon2-cffi (23.1.0)
+  • Installing jupyter-events (0.9.0)
+  • Installing jupyter-server-terminals (0.4.4)
+  • Installing nbconvert (7.11.0)
+  • Installing overrides (7.4.0)
+  • Installing prometheus-client (0.18.0)
+  • Installing send2trash (1.8.2)
+  • Installing websocket-client (1.6.4)
+  • Installing babel (2.13.1)
+  • Installing json5 (0.9.14)
+  • Installing jupyter-server (2.10.0)
+  • Installing async-lru (2.0.4)
+  • Installing jupyter-lsp (2.2.0)
+  • Installing jupyterlab-server (2.25.1)
+  • Installing notebook-shim (0.2.3)
+  • Installing jupyterlab (4.0.8)
+  • Installing jupyterlab-widgets (3.0.9)
+  • Installing qtpy (2.4.1)
+  • Installing widgetsnbextension (4.0.9)
+  • Installing ipywidgets (8.1.1)
+  • Installing jupyter-console (6.6.3)
+  • Installing notebook (7.0.6)
+  • Installing qtconsole (5.5.0)
+  • Installing jupyter (1.0.0): Installing...
+  • Installing jupyter (1.0.0)
+
+Writing lock file
+PS C:\Users\koush\Synthia_Anaconda> poetry shell
+Virtual environment already activated: C:\Users\koush\Synthia_Anaconda\.venv
+PS C:\Users\koush\Synthia_Anaconda> python -m ipykernel install --user --name=synthia-anaconda-kernel
+0.02s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+Installed kernelspec synthia-anaconda-kernel in C:\Users\koush\AppData\Roaming\jupyter\kernels\synthia-anaconda-kernel
+PS C:\Users\koush\Synthia_Anaconda> 
