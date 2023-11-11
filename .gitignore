@@ -159,3 +159,6 @@ notebook/
 
 # sonarscan
 .scannerwork/
+
+# Ignore everything in the keys directory
+keys/*
